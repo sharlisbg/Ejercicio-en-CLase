@@ -3,6 +3,14 @@ public abstract class Mascota{
     protected String raza;
     protected int edad; 
 
+
+    public Mascota(String nombre, String raza, int edad) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.edad = edad;
+    }
+
+
     public String getNombre() {
         return this.nombre;
     }
