@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Veterinaria {
     ArrayList<Mascota> mascotas; 
 
@@ -9,12 +11,5 @@ public class Veterinaria {
         Gato gato1 = new Gato("Mish", "Persa", 5);
         mascotas.add(gato1);
         }
-
-    public boolean darServicio(String nombre, String raza){
-
-    }
-
-
-
 
 }
