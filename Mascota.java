@@ -1,4 +1,4 @@
-public abstract class Perro{
+public abstract class Mascota{
     private String nombre; 
     private String raza;
     private int edad; 
