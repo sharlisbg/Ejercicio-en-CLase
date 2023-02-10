@@ -4,9 +4,11 @@ public class Veterinaria {
 
     public Veterinaria() {
         this.mascotas = new ArrayList<Mascota>();
-        Perro perro1 = new Perro
-        mascotas.add()
-    }
+        Perro perro1 = new Perro("Pancho", "Poodle", 2);
+        mascotas.add(perro1);
+        Gato gato1 = new Gato("Mish", "Persa", 5);
+        mascotas.add(gato1);
+        }
 
     public boolean darServicio(String nombre, String raza){
 
