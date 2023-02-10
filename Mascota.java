@@ -1,7 +1,7 @@
 public abstract class Mascota{
-    private String nombre; 
-    private String raza;
-    private int edad; 
+    protected String nombre; 
+    protected String raza;
+    protected int edad; 
 
     public String getNombre() {
         return this.nombre;
@@ -27,33 +27,6 @@ public abstract class Mascota{
         this.edad = edad;
     }
 
-    public boolean isPeligroso() {
-        return this.peligroso;
-    }
-
-    public boolean getPeligroso() {
-        return this.peligroso;
-    }
-
-    public void setPeligroso(boolean peligroso) {
-        this.peligroso = peligroso;
-    }
-
-    public boolean isPerdido() {
-        return this.perdido;
-    }
-
-    public boolean getPerdido() {
-        return this.perdido;
-    }
-
-    public void setPerdido(boolean perdido) {
-        this.perdido = perdido;
-    }
-    private boolean peligroso; 
-    private boolean perdido; 
-
-
-
+    public void servicio(){}
 
 }
